@@ -1,0 +1,66 @@
+body {
+    background-color: #1E3A5F; /* Dark blue background */
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #4682B4; /* Steel blue */
+    padding: 1rem;
+    text-align: center;
+    color: #F0F8FF; /* Alice Blue */
+    font-size: 1.5rem;
+    height: 80px;
+}
+
+
+section {
+    margin: 20px;
+    text-align: center;
+
+}
+
+button {
+    background-color: #00BFFF; /* Deep Sky Blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #1E90FF; /* Dodger Blue */
+}
+
+img {
+    margin-top: 20px;
+    border: 3px solid #4682B4; /* Steel Blue */
+    border-radius: 5px;
+}
+
+.home-button {
+    display: inline-block;
+    background-color: #ADD8E6; /* Light Blue */
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.home-button:hover {
+    background-color: #1E90FF; /* Dodger Blue hovered */
+}
+
+
+
+

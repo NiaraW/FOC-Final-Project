@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FoC</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #ffe4e1; /* overall bg */
+            color: #4B4A57; /* soft dark text */
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color: #800080; 
+            padding: 2rem;
+            color: #fff; /* white */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px; /* space between title and nav */
+        }
+
+        /* bar in header */
+        .nav-header {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .nav-header a {
+            color: #5D536B;
+            background-color: #ADD8E6; /* light blue */
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-header a:hover {
+            background-color: #B29AFF; /*color changes on hover */
+        }
+
+        /* Article section */
+        .background-section {
+            background-color: #FFEBEE; /* pink background for article / section thingy */
+            padding: 3px;
+	    font-weight: bold;
+            border-radius: 10px; /* shape of section thingy */
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .background-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #D5B0FF; /*light purple */
+            padding: 2rem; /* space */
+            text-align: center;
+            color: #5D536B;
+            border-top: 2px solid #D5B0FF;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+<h2>Fundamentals of Computing</h2>
+    <nav class="nav-header">
+        <a href="index.html">Course</a>
+        <a href="project.html">Project</a>
+        <a href="concepts.html">Concepts</a>
+        <a href="database.html">Databases</a>
+        <a href="documentation.html">Documentation</a>
+        <a href="aboutme.html">Dev Team</a>
+    </nav>
+</header>
+
+<section class="container mt-5">
+    <div class="row">
+        <article class="col-md-12">
+            <div class="background-section">
+                <img src="pastel.jpg" alt="FoC">
+                <p class="mt-4">This course is an introduction to the fundamentals of Computer Science that provides students with a foundation for future courses. Topics include computer architecture, operating systems, networks, software development, and more.</p>
+            </div>
+        </article>
+    </div>
+</section>
+
+<footer>
+    <p>@ Powered by Ni'ara Williams</p>
+</footer>
+
+</body>
+</html>
+
+
+

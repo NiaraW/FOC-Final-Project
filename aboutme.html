@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Me - Ni'ara Williams</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        /* Custom pastel color theme */
+        body {
+            background-color: #FFE4E1; /* light pastel pink background */
+            color: #4B4A57; /* soft dark text */
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color: #ADD8E6; /* pastel purple */
+            padding: 2rem;
+            color: #fff; /* white text */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px; /* space between title and nav */
+        }
+
+        h3 {
+            font-size: 2.5rem;
+            padding: 1rem;
+            margin-bottom: 0px; /* about me */
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Navigation in header */
+        .nav-header {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .nav-header a {
+            color: #5D536B;
+            background-color: #FFB6C1; /* pastel pink */
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-header a:hover {
+            background-color: #FF92A2; /* darker pastel pink on hover */
+        }
+
+        /* About Me Section */
+        .about-section {
+            background-color: #FFEBEE; /* subtle light pink background */
+            padding: 1rem;
+            font-weight: bold;
+            border-radius: 10px; /* rounded edges */
+            margin-bottom: 3rem;
+        }
+
+        /* Layout: Picture on the left, text on the right */
+        .profile-picture {
+            border-radius: 50%; /* Circular image */
+            width: 280px; /* Shape of image*/
+            height: 280px;
+            border: 5px solid #800080; /* Purple border around picture */
+            object-fit: cover; /* Ensures the image fits the circular frame */
+            margin-right: 20px; /* Space between image and text */
+	    margin-bottom: 10px;
+        }
+
+
+        .about-text {
+            color: #4B4A57; /* soft dark text */
+            font-size: 1.3rem;
+        }
+
+        .about-container {
+            display: flex;
+            align-items: center; /* Vertically centers content */
+            justify-content: flex-start;
+            gap: 0.5rem;
+        }
+	
+        h4 {
+            font-size: 1rem;
+            font-weight: bold;
+            color: #000000; /* Black text for the resume link */
+	    padding: 0.5rem;
+            margin-bottom: 0px; /* about me */
+            text-align: center;
+        }
+
+
+        /* Footer */
+        footer {
+            background-color: #D5B0FF; /* pastel purple */
+            padding: 2rem;
+            text-align: center;
+	    width: auto;
+            color: #5D536B;
+            border-top: 2px solid #B29AFF; /* subtle border */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>Dev Team</h2>
+    <nav class="nav-header">
+        <a href="index.html">Course</a>
+        <a href="project.html">Project</a>
+        <a href="concepts.html">Concepts</a>
+        <a href="database.html">Databases</a>
+        <a href="documentation.html">Documentation</a>
+        <a href="aboutme.html">Dev Team</a>
+    </nav>
+</header>
+
+<!-- About Me Section -->
+<section class="container mt-5">
+   <h3>About Me</h3>
+   <h4> <a href="Resume.html" style="color: black; text-decoration: none;">Visit my resume</a> 
+       <br>
+       <br>
+	<a href="https://github.com/NiaraW" style="color: black; text-decoration: none;">Visit my Github</a> </h4> <!-- Black link to resume -->
+    <div class="about-container">
+        <img src="Niara-W.jpg" alt="Ni'ara Williams" class="profile-picture"> <!-- Profile picture on the left -->
+        <div class="about-text">
+            <p>Ni'ara Williams lives at 541 Drewery Lane. She graduated from Saint Catherine Academy in 2024 and is currently pursuing her associate's degree in Information Technology at the University of Belize.
+	As a child Ni'ara aspired to be a chef, pilot or teacher. She hopes to make the world a better place than she found it and give back to communities in need.</p>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <p>@ Powered by Ni'ara Williams</p>
+</footer>
+
+</body>
+</html>

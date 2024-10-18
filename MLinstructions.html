@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML</title>
+    <style>
+        body {
+            background-color: #FFB6C1; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h3 {
+            text-align: center;
+            color: #C50282; /        }
+
+        /* Centered layout for images and buttons */
+        .container {
+            display: flex;
+            flex-direction: column; /* Column layout */
+            align-items: center; /* Center align items */
+            margin-top: 20px;
+        }
+
+       
+        img#MLinstrucitons {
+            width: 350px; /* Size of main image */
+            height: 350px;
+            border-radius: 15px;
+            margin-bottom: 20px; /* Space below the main image */
+        }
+
+        /* Buttons container for horizontal alignment */
+        .buttons {
+            display: flex; /* Flexbox for horizontal buttons */
+            justify-content: center; /* Center the buttons */
+            margin-bottom: 20px; /* Space below buttons */
+        }
+
+        button {
+            background-color: #FF69B4; /* Hot pink button */
+            border: none;
+            color: white;
+            padding: 12px 20px; 
+            text-align: center;
+            font-size: 16px;
+            margin: 0 10px; /* Space between buttons */
+            cursor: pointer;
+            border-radius: 8px;
+            width: 100px; /* button width */
+        }
+
+        button:hover {
+            background-color: #FF1493; /* Darker pink on hover */
+        }
+
+   
+        img#Englishinstrucitons {
+            display: block;
+            margin: 20px 0; /* Space above and below */
+            width: 210px; 
+            height: auto;
+            border-radius: 15px; 
+        }
+
+        .back-home {
+            margin-top: 20px; 
+            text-align: center; /* Center the button */
+        }
+
+        .back-home button {
+            background-color: #C50282; /* Dark Purple */
+            width: 200px; 
+            padding: 10px; 
+            border-radius: 8px; /
+            color: white; /* Text color */
+            border: none; /* No border */
+            cursor: pointer; /* Pointer cursor on hover */
+        }
+
+        .back-home button:hover {
+            background-color: #AF005F; /* Darker shade on hover */
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h3>A Simple Interactive Machine Language</h3>
+
+ 
+    <div class="container">
+        <img id="MLinstrucitons" src="MLblank.png" alt="Machine Language Instructions">
+
+        <!-- Horizontal Buttons -->
+        <div class="buttons">
+            <button onclick="document.getElementById('MLinstrucitons').src='ML1.png'; document.getElementById('Englishinstrucitons').src='EI1.png'">156C</button>
+            <button onclick="document.getElementById('MLinstrucitons').src='ML2.png'; document.getElementById('Englishinstrucitons').src='EI2.png'">166D</button>
+            <button onclick="document.getElementById('MLinstrucitons').src='ML3.png'; document.getElementById('Englishinstrucitons').src='EI3.png'">5056</button>
+            <button onclick="document.getElementById('MLinstrucitons').src='ML4.png'; document.getElementById('Englishinstrucitons').src='EI4.png'">306E</button>
+            <button onclick="document.getElementById('MLinstrucitons').src='ML5.png'; document.getElementById('Englishinstrucitons').src='EI5.png'">C000</button>
+        </div>
+
+
+        <img id="Englishinstrucitons" src="" >
+
+        <!-- Back to Home Button -->
+        <div class="back-home">
+            <button onclick="window.location.href='index.html'">Back to Home</button>
+        </div>
+    </div>
+
+</body>
+</html>

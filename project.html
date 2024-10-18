@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FoC - Projects</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        /* Custom pastel color theme */
+        body {
+            background-color: #D5B0FF; /* pastel purple */
+            color: #4B4A57; 
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color: #FFEBEE; /* pastel pink */
+            padding: 2rem;
+            color: #4B4A57; /* text */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* Nav bar in header a bit  */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 1rem;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: #d3d3d3; /* text color */
+            background-color: #800080; /* purple */
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #FF92A2; /* darker pastel pink when hover */
+        }
+
+        /* Geometric Buttons */
+        .project-list {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .project-list .shape {
+            width: 120px;
+            height: 120px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+
+        .project-list .shape:hover {
+            transform: scale(1.1);
+        }
+
+	/* Octagon Buttons */
+        .octagon {
+            background-color: #800080;
+            clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+        }
+
+        /* Hexagon Buttons */
+        .hexagon {
+            background-color: #FF69B4;
+            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+        }
+
+        /* Pentagon Button */
+        .pentagon {
+            background-color: #9370DB;
+            clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+        }
+
+        /* Circle Button */
+        .circle {
+            background-color: #ADD8E6;
+            border-radius: 50%;
+        }
+
+        /* Descriptions */
+        .project-desc {
+            font-size: 1.1rem;
+            margin-bottom: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #FFEBEE; /* pastel pink */
+            padding: 2rem;
+            text-align: center;
+            color: #4B4A57;
+            border-top: 2px solid #FF92A2;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h2><b>Fundamentals of Computing</b></h2>
+</header>
+
+<section>
+    <nav>
+        <ul>
+            <li><h5><a href="index.html">Course</a></h5></li>
+            <li><h5><a href="project.html">Project</a></h5></li>
+            <li><h5><a href="concepts.html">Concepts</a></h5></li>
+            <li><h5><a href="database.html">Databases</a></h5></li>
+            <li><h5><a href="documentation.html">Documentation</a></h5></li>
+            <li><h5><a href="aboutme.html">Dev Team</a></h5></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h1>Project</h1>
+        <p class="project-desc">The final project will consist of multiple sections. A complete description of the project can be found on the course Moodle site. It will include launching a website built with HTML, CSS, and JavaScript, and hosted on GitHub.</p>
+
+        <div class="project-list">
+            <a href="notgate.html" class="shape octagon">NOT Gate</a>
+            <a href="easyand.html" class="shape pentagon">AND Gate</a>
+            <a href="binarytohex.html" class="shape circle">Binary to Hex</a>
+            <a href="ascii.html" class="shape octagon">ASCII Converter</a>
+            <a href="unicode.html" class="shape hexagon">UNICODE Converter</a>
+            <a href="MLinstructions.html" class="shape pentagon">Machine Language</a>
+        </div>
+
+    </article>
+</section>
+
+<footer>
+    <p>@ Powered by Ni'ara Williams</p>
+</footer>
+
+</body>
+</html>
+
+
+

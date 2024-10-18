@@ -1,0 +1,65 @@
+/* Body Styling */
+body {
+  background-color: #FFB6C1; /* Light Pink background */
+  font-family: Arial, sans-serif;
+}
+
+
+h2 {
+  text-align: center;
+  color: #E75480; /* Darker Pink/Purple for headers */
+}
+
+/* Section Styling with Flexbox */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+
+img {
+  width: 30%; 
+  border-radius: 15px;
+  margin-right: 40px; /* Space between the image and the right side */
+}
+
+
+.input-area {
+  width: 50%; /* Adjust width with the image */
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #FF69B4; /* Hot pink for buttons */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+  border-radius: 12px;
+  width: 100%; }
+
+button:hover {
+  background-color: #FF1493; /* Darker pink when hovered */
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #800080;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+
+

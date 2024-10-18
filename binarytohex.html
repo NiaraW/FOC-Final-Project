@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoC - Project</title>
+  <link rel="stylesheet" type="text/css" href="style4.css"> 
+</head>
+
+<body>
+
+
+<h2>Project 1: Binary to Hexadecimal</h2>
+
+<section>
+
+  <img src="bintohex.jpg" alt="Binary to Hex Conversion" /> <!-- Image on the left -->
+  <div class="input-area">
+    <p>Enter any 4-digit binary number:</p>
+    <input type="number" id="inputBin" placeholder="Enter binary number">
+    <button onclick="binToHex()">Submit</button>
+
+    <p>Hexadecimal Value: <span id="demo"></span></p>
+  </div>
+</section>
+
+
+<a href="index.html" style="display: block; text-align: center; margin-top: 20px;">
+  <button style="width: 200px; margin: auto;">Back to Home</button>
+</a>
+
+
+
+<script>
+  function binToHex() {
+    var x = document.getElementById("inputBin").value;
+    var hexOut = parseInt(x, 2).toString(16).toUpperCase();
+    document.getElementById("demo").innerHTML = hexOut;
+  }
+</script>
+
+</body>
+</html>
